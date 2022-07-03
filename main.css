@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&family=Roboto:wght@300&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+#header {
+    background-color: steelblue;
+    box-sizing: border-box;
+    margin: -8px -8px;
+    padding: 10px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 3rem;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.logo {
+    font-size: 1.5rem;
+    color: yellow;
+}
+.logo::before {
+    content: ' ';
+    background-color: red;
+    border: 3px solid red;
+}
+.logo span {
+    color: black;
+    text-shadow: 3px 0 3px yellow;
+}
+.nav-bars {
+    display: flex;
+}
+.nav-bar {
+    list-style: none;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.nav-bar:hover {
+    color: yellow;
+}
+.login {
+    background-color: yellow;
+    color: black;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+}
+.login:hover {
+    background-color: red;
+    color: white;
+}
+
+#section-1 {
+    margin-bottom: 3rem;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto Slab', serif;
+}
+.block-1 {
+    background-image: url(https://imic.edu.vn/Contents/images/news/nghe-lap-trinh-vien-web-front-end-dang-rat-hot-hien-nay-muc-thu-nhap-cao.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 250px;
+    font-size: 2rem;
+    border-radius: 20px;
+    border: 2px solid black;
+    position: relative;
+}
+.block-2 {
+    background-image: url(https://www.techavidus.com/Uploads/Blog/700x400-backend-development-01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 250px;
+    font-size: 2rem;
+    border-radius: 20px;
+    border: 2px solid black;
+    position: relative;
+}
+
+ .block-1:active {
+    margin-left: 10rem;
+}
+.block-2:active {
+    margin-right: 10rem;
+}
+.line {
+    width: 0;
+    height: 200px;
+    border: 5px solid red;
+}
+.line:active {
+    background-image: url(./images/BC0B3838.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 80px;
+    font-size: 2rem;
+    border-radius: 20px;
+    border: 2px solid black;
+    position: relative;
+
+}
+
+#section-2 {
+    margin-bottom: 3rem;
+}
+.img {
+    width: 100%;
+    height: 80vh;
+    background-image: url(https://i.pinimg.com/originals/70/d6/b3/70d6b3aaf2857dce05601505b8ca7db0.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.img:active {
+    width: 100%;
+    height: 80vh;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/223/524/1009/you-wallpaper-preview.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#section-3 {
+    margin-bottom: 3rem;
+}
+
+.blocks-2 {
+    display: flex;
+    justify-content: space-around;
+}
+.myBlock {
+    background-image: url(https://cutewallpaper.org/21/cap-wallpaper/Free-Images-baseball-cap-beach-blurred-background-.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    font-size: 0;
+    border: 3px solid red;
+    width: 200px;
+    height: 80px;
+    padding: 80px;
+    text-align: center;
+    border-radius: 20px;
+}
+.myBlock:active {
+    background-color: steelblue;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 20px;
+    color: red;
+}
+.myBlock-2 {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2d777638-e59e-47c4-9ef8-f8bc2776038e/d4ygu4a-c994fb88-fec9-452b-bb30-39450291097c.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJkNzc3NjM4LWU1OWUtNDdjNC05ZWY4LWY4YmMyNzc2MDM4ZVwvZDR5Z3U0YS1jOTk0ZmI4OC1mZWM5LTQ1MmItYmIzMC0zOTQ1MDI5MTA5N2MuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.YZSKXRnv6xAw9S44uY1Hk72-mmeAIfKdX7iHxaaU3is);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    font-size: 0;
+    border: 3px solid red;
+    width: 200px;
+    height: 80px;
+    padding: 80px;
+    text-align: center;
+    border-radius: 20px;
+}
+.myBlock-2:active {
+    background-color: steelblue;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 20px;
+    color: red;
+}
+.myBlock-3 {
+    background-image: url(https://images.hdqwalls.com/wallpapers/back-to-the-future-movie-li.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid red;
+    padding: 80px;
+    width: 200px;
+    height: 80px;
+    border-radius: 20px;
+    font-size: 0;
+}
+.myBlock-3:active {
+    background-color: steelblue;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 20px;
+    color: red;
+}
+
+#section-4 {
+    margin-bottom: 3rem;
+}
+
+.miniBlocks {
+    display: flex;
+    justify-content: space-around;
+}
+.miniBlock {
+    width: 250px;
+    height: 150px;
+    background-image: url(https://wallpaperaccess.com/full/297118.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid steelblue;
+    border-radius: 20px;
+}
+.miniBlock:active {
+    background-image: url(https://st2.depositphotos.com/1016929/5738/i/950/depositphotos_57384905-stock-photo-3d-twenty-percent.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.miniBlock-2 {
+    width: 250px;
+    height: 150px;
+    background-image: url(https://i.pinimg.com/originals/40/c2/a3/40c2a3cd04d2289572340b8a9bc7bf3b.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid steelblue;
+    border-radius: 20px;
+}
+.miniBlock-2:active {
+    background-image: url(https://thermalroof.co.uk/wp-content/uploads/2020/01/ten-706887_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.miniBlock-3 {
+    width: 250px;
+    height: 150px;
+    background-image: url(http://www.seoclerk.com/pics/466803-1MJ1Nc1469372603.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid steelblue;
+    border-radius: 20px;
+}
+.miniBlock-3:active {
+    background-image: url(https://thumbs.dreamstime.com/b/d-shiny-red-discount-collection-percent-isolated-white-background-36749407.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.miniBlock-4 {
+    width: 250px;
+    height: 150px;
+    background-image: url(https://previews.123rf.com/images/maxkabakov/maxkabakov1509/maxkabakov150902066/44839041-science-concept-glowing-text-computer-science-in-grunge-dark-room-with-wooden-floor-black-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid steelblue;
+    border-radius: 20px;
+}
+.miniBlock-4:active {
+    background-image: url(https://connect-prd-cdn.unity.com/p/images/f48be69c-35e8-4297-bdc6-bade928f23f7_fifty_706883_640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer {
+    background-color: steelblue;
+    box-sizing: border-box;
+    padding: 20px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.createdBy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1024px) { 
+    #header {
+        width: 80rem;
+    }
+    #section-1 {
+        margin-left: 2rem;
+    }
+    #section-2 {
+        margin-left: 2rem;
+    }
+    #section-3 {
+        margin-left: 2rem;
+    }
+    #section-4 {
+        margin-left: 2rem;
+    }
+    #footer {
+        width: 79rem;
+    }
+ }
+
+ @media  screen and (max-width: 768px) {
+    #header {
+        width: 77rem;
+    }
+    .row {
+        width: 42rem;
+    }
+    .nav-bar {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    #section-1 {
+        margin-left: 7rem;
+    }
+    .blocks {
+        display: inline-block;
+        flex-wrap: wrap;
+    }
+    .block-1 {
+        margin-bottom: 2rem;
+    }
+   
+    .line {
+       display: none;
+        /* width: 40rem; */
+    }
+    .img {
+        width: 41rem;
+        height: 60vh;
+    }
+    #section-3 {
+        margin-left: 7.5rem;
+    }
+    .blocks-2 {
+        display: inline-block;
+    }
+    .myBlock {
+        width: 20rem;
+        margin-bottom: 2rem;
+    }
+    .myBlock-2 {
+        width: 20rem;
+        margin-bottom: 2rem;
+    }
+    .myBlock-3 {
+        width: 20rem;
+        margin-bottom: 2rem;
+    }
+    #section-4 {
+        margin-left: 4.5rem;
+    }
+    .miniBlocks {
+        width: 580px;
+        flex-wrap: wrap;
+    }
+    .miniBlock-2 {
+        margin-bottom: 2rem;
+    }
+  
+    .createdBy {
+        width: 43rem;
+        font-size: 13px;
+    }
+ }
